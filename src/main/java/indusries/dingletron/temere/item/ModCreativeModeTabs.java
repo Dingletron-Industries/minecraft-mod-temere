@@ -18,7 +18,12 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> TEMERE_TAB = CREATIVE_MODE_TAB.register("temere_tab", () -> CreativeModeTab.builder()
             .icon(() -> new ItemStack(ModBlocks.TIN_ORE.get())).title(Component.translatable("creative.temere"))
             .displayItems((itemDisplayParameters, output) -> {
+                // Misc Items
                 output.accept(ModItems.COAL_CHUNK);
+                // Foods
+
+                // Fish
+                
                 // Tin
                 output.accept(ModItems.RAW_TIN);
                 output.accept(ModItems.TIN_INGOT);
