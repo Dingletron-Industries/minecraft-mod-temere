@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.25,
+  "cookingtime": 900,
+  "experience": 6.00,
   "group": "tin_ingot",
   "ingredient": {
     "item": "temere:raw_tin_block"

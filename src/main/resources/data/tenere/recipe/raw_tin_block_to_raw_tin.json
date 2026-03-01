@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "temere:tin_ingot"
+      "item": "temere:raw_tin_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "temere:tin_ingot"
+    "id": "temere:raw_tin"
   }
 }
