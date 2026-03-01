@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "temere:block/tin_block"
+    }
+  }
+}
