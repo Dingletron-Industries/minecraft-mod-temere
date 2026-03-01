@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModBlocks.TIN_ORE.get())).title(Component.translatable("creative.temere"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.COAL_CHUNK);
+                output.accept(ModItems.TIN_INGOT);
+                output.accept(ModItems.RAW_TIN);
                 // Blocks
                 output.accept(ModBlocks.TIN_ORE);
                 output.accept(ModBlocks.TIN_BLOCK);
