@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "temere:block/tin_block"
+    "all": "temere:block/raw_tin_block"
   }
 }

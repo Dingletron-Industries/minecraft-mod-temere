@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "temere:block/tin_ore"
+      "model": "temere:block/deepslate_tin_ore"
     }
   }
 }

@@ -5,7 +5,7 @@
   "experience": 0.25,
   "group": "tin_ingot",
   "ingredient": {
-    "item": "temere:raw_tin"
+    "item": "temere:tin_ore"
   },
   "result": {
     "count": 1,

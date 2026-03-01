@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.25,
-  "group": "bismuth",
+  "group": "tin_ingot",
   "ingredient": {
-    "item": "temere:tin_ore"
+    "item": "temere:raw_tin"
   },
   "result": {
     "count": 1,
