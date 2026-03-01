@@ -18,13 +18,13 @@ public class ModBlocks {
 
     // Tin Blocks
     public static final DeferredBlock<Block> TIN_ORE = registerBlock("tin_ore", () -> new Block(BlockBehaviour.Properties.of()
-            .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            .requiresCorrectToolForDrops().sound(SoundType.STONE).strength(3f)));
     public static final DeferredBlock<Block> TIN_BLOCK = registerBlock("tin_block", () -> new Block(BlockBehaviour.Properties.of()
-            .requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            .requiresCorrectToolForDrops().sound(SoundType.METAL).strength(4f)));
     public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", () -> new Block(BlockBehaviour.Properties.of()
-            .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+            .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).strength(4f)));
     public static final DeferredBlock<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", () -> new Block(BlockBehaviour.Properties.of()
-            .requiresCorrectToolForDrops().sound(SoundType.TUFF)));
+            .requiresCorrectToolForDrops().sound(SoundType.TUFF).strength(3f)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
