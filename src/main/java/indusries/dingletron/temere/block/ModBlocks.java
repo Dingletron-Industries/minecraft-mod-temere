@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", () -> new Block(BlockBehaviour.Properties.of()
             .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).strength(4f)));
     public static final DeferredBlock<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", () -> new Block(BlockBehaviour.Properties.of()
-            .requiresCorrectToolForDrops().sound(SoundType.TUFF).strength(3f)));
+            .requiresCorrectToolForDrops().sound(SoundType.STONE).strength(3f)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
