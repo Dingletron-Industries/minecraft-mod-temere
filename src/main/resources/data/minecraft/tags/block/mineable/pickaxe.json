@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "temere:tin_block",
+    "temere:tin_ore",
+    "temere:deepslate_tin_ore",
+    "temere:raw_tin_block"
+  ]
+}
