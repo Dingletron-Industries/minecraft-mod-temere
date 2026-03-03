@@ -23,7 +23,9 @@ public class ModCreativeModeTabs {
                 // Foods
 
                 // Fish
-                
+                output.accept(ModItems.FISH_BONES);
+                output.accept(ModItems.ANCHOVY);
+
                 // Tin
                 output.accept(ModItems.RAW_TIN);
                 output.accept(ModItems.TIN_INGOT);

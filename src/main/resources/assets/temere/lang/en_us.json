@@ -1,8 +1,11 @@
 {
   "item.temere.coal_chunk": "Coal Chunk",
+  "item.temere.fish_bones": "Fish Bones",
+
+  "item.temere.anchovy": "Anchovy",
+
   "item.temere.tin_ingot": "Tin Ingot",
   "item.temere.raw_tin": "Raw Tin",
-
   "block.temere.tin_ore": "Tin Ore",
   "block.temere.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.temere.raw_tin_block": "Raw Block of Tin",
