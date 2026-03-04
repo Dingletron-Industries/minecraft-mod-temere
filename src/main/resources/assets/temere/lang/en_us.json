@@ -1,8 +1,23 @@
 {
   "item.temere.coal_chunk": "Coal Chunk",
   "item.temere.fish_bones": "Fish Bones",
+  "item.temere.fossil": "Fossil",
 
   "item.temere.anchovy": "Anchovy",
+  "item.temere.bass": "Bass",
+  "item.temere.bream": "Bream",
+  "item.temere.carp": "Carp",
+  "item.temere.catfish": "Catfish",
+  "item.temere.crayfish": "Crayfish",
+  "item.temere.dorado": "Dorado",
+  "item.temere.herring": "Herring",
+  "item.temere.lobster": "Lobster",
+  "item.temere.oyster": "Oyster",
+  "item.temere.pike": "Pike",
+  "item.temere.purple_reef_fish": "Purple Reef Fish",
+  "item.temere.sardine": "Sardine",
+  "item.temere.sea_snail": "Sea Snail",
+  "item.temere.tuna": "Tuna",
 
   "item.temere.tin_ingot": "Tin Ingot",
   "item.temere.raw_tin": "Raw Tin",

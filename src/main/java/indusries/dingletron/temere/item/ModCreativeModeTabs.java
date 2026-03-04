@@ -20,11 +20,26 @@ public class ModCreativeModeTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 // Misc Items
                 output.accept(ModItems.COAL_CHUNK);
+                output.accept(ModItems.FISH_BONES);
+                output.accept(ModItems.FOSSIL);
                 // Foods
 
                 // Fish
-                output.accept(ModItems.FISH_BONES);
                 output.accept(ModItems.ANCHOVY);
+                output.accept(ModItems.BASS);
+                output.accept(ModItems.BREAM);
+                output.accept(ModItems.CARP);
+                output.accept(ModItems.CATFISH);
+                output.accept(ModItems.CRAYFISH);
+                output.accept(ModItems.DORADO);
+                output.accept(ModItems.HERRING);
+                output.accept(ModItems.LOBSTER);
+                output.accept(ModItems.OYSTER);
+                output.accept(ModItems.PIKE);
+                output.accept(ModItems.PURPLE_REEF_FISH);
+                output.accept(ModItems.SARDINE);
+                output.accept(ModItems.SEA_SNAIL);
+                output.accept(ModItems.TUNA);
 
                 // Tin
                 output.accept(ModItems.RAW_TIN);
