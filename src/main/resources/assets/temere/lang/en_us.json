@@ -26,5 +26,6 @@
   "block.temere.raw_tin_block": "Raw Block of Tin",
   "block.temere.tin_block": "Block of Tin",
 
-  "creative.temere": "Temere"
+  "creativetab.temere.items": "Temere - Items",
+  "creativetab.temere.blocks": "Temere - Blocks"
 }
