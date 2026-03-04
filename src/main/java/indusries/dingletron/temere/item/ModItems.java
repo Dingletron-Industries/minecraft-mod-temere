@@ -9,7 +9,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Temere.MOD_ID);
     //Materials
-    public static final DeferredItem<Item> COAL_CHUNK = ITEMS.register("coal_chunk", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FISH_BONES = ITEMS.register("fish_bones", () -> new Item(new Item.Properties()));
@@ -32,6 +31,8 @@ public class ModItems {
     public static final DeferredItem<Item> SARDINE = ITEMS.register("sardine", () -> new Item(new Item.Properties().food(ModFoodProperties.SARDINE)));
     public static final DeferredItem<Item> SEA_SNAIL = ITEMS.register("sea_snail", () -> new Item(new Item.Properties().food(ModFoodProperties.SEA_SNAIL)));
     public static final DeferredItem<Item> TUNA = ITEMS.register("tuna", () -> new Item(new Item.Properties().food(ModFoodProperties.TUNA)));
+    //Fuels
+    public static final DeferredItem<Item> COAL_CHUNK = ITEMS.register("coal_chunk", () -> new FuelItem(new Item.Properties(), 200));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
