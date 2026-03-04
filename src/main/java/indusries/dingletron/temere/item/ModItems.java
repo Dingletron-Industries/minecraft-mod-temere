@@ -14,8 +14,8 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FISH_BONES = ITEMS.register("fish_bones", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FOSSIL = ITEMS.register("fossil", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> SNAIL_SHELL = ITEMS.register("fossil", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> OYSTER_SHELL = ITEMS.register("fossil", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SNAIL_SHELL = ITEMS.register("snail_shell", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> OYSTER_SHELL = ITEMS.register("oyster_shell", () -> new Item(new Item.Properties()));
     //Fish
     public static final DeferredItem<Item> ANCHOVY = ITEMS.register("anchovy", () -> new Item(new Item.Properties().food(ModFoodProperties.ANCHOVY)));
     public static final DeferredItem<Item> BASS = ITEMS.register("bass", () -> new Item(new Item.Properties().food(ModFoodProperties.BASS)));
