@@ -1,10 +1,15 @@
 package indusries.dingletron.temere.item;
 
 import indusries.dingletron.temere.Temere;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Temere.MOD_ID);
@@ -32,7 +37,13 @@ public class ModItems {
     public static final DeferredItem<Item> SEA_SNAIL = ITEMS.register("sea_snail", () -> new Item(new Item.Properties().food(ModFoodProperties.SEA_SNAIL)));
     public static final DeferredItem<Item> TUNA = ITEMS.register("tuna", () -> new Item(new Item.Properties().food(ModFoodProperties.TUNA)));
     //Fuels
-    public static final DeferredItem<Item> COAL_CHUNK = ITEMS.register("coal_chunk", () -> new FuelItem(new Item.Properties(), 200));
+    public static final DeferredItem<Item> COAL_CHUNK = ITEMS.register("coal_chunk", () -> new FuelItem(new Item.Properties(), 200){
+        @Override
+        public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+            tooltipComponents.add(Component.translatable("tooltip.temere.coal_chunk"));
+            super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        }
+    });
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

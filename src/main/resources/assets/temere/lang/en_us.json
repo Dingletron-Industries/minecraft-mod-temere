@@ -27,5 +27,7 @@
   "block.temere.tin_block": "Block of Tin",
 
   "creativetab.temere.items": "Temere - Items",
-  "creativetab.temere.blocks": "Temere - Blocks"
+  "creativetab.temere.blocks": "Temere - Blocks",
+
+  "tooltip.temere.coal_chunk": "§6Smelts §e1 §6item."
 }
